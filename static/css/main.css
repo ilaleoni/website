@@ -1,19 +1,22 @@
 @import "./styles.css";
 
-
-:root{
-    --h-title-color:#3948d2;
+/* Root variables */
+:root {
+    --h-title-color: #F6A5A1;  /* Soft Pink */
 }
 
+/* Header */
 .header {
-    border-bottom: solid 2px var(--bs-blue);
+    border-bottom: solid 2px var(--h-title-color);
     z-index: 10000;
 }
 
+/* Background color for sections */
 .bg-bottom {
-    background-color: var(--h-title-color);
+    background-color: var(--h-title-color); /* Soft Pink background */
 }
 
+/* Top Section */
 .top-section {
     position: relative;
     padding: 10rem 0;
@@ -41,20 +44,22 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
-section header h2{
+/* Section header styles */
+section header h2 {
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    color: var(--h-title-color);
+    color: var(--h-title-color); /* Soft Pink for section titles */
     font-size: 2.3rem;
     line-height: 4rem;
 }
 
-section .main-body{
+/* Main body of the sections */
+section .main-body {
     font-size: 1.3rem;
     font-weight: 200;
     line-height: 2.4rem;
 }
 
-
+/* Gradient backgrounds */
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
 }
@@ -63,13 +68,13 @@ section .main-body{
     background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
 }
 
-
-
+/* On top positioning */
 .on-top {
     position: relative;
     z-index: 10000;
 }
 
+/* Background image for top section */
 .top-bg {
     background-position: center;
     background-size: fill;
@@ -87,11 +92,11 @@ section .main-body{
     background: rgba(0, 0, 0, 0.4);
 }
 
-
+/* Avatar image */
 #avatar {
     position: relative;
     height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
+    top: min(-65px, max(-100px, calc(-1 * 100vw / 12)));
     max-width: 55em;
     margin: 0 1.5rem 0 0;
     float: right;
@@ -99,14 +104,13 @@ section .main-body{
 }
 
 #avatar img {
-    height: max(130px,min(200px,calc(100vw/6)));
+    height: max(130px, min(200px, calc(100vw / 6)));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Media Queries */
 @media screen and (max-width: 991px) {
     #avatar {
         margin: 0;
     }
 }
-
-
