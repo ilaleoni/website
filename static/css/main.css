@@ -2,18 +2,18 @@
 
 /* Root variables */
 :root {
-    --h-title-color: #6c757d;  /* Soft Gray */
+    --h-title-color: #6c757d;  /* Gray */
 }
 
 /* Header */
 .header {
-    border-bottom: solid 2px var(--h-title-color);
+    border-bottom: solid 2px var(--h-title-color); /* Gray header border */
     z-index: 10000;
 }
 
 /* Background color for sections */
 .bg-bottom {
-    background-color: var(--h-title-color); /* Soft Gray background */
+    background-color: var(--h-title-color); /* Gray background for sections */
 }
 
 /* Top Section */
@@ -41,13 +41,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /* Overlay dark color */
 }
 
 /* Section header styles */
 section header h2 {
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    color: var(--h-title-color); /* Soft Gray for section titles */
+    color: var(--h-title-color); /* Gray for section titles */
     font-size: 2.3rem;
     line-height: 4rem;
 }
@@ -59,13 +59,13 @@ section .main-body {
     line-height: 2.4rem;
 }
 
-/* Gradient backgrounds */
+/* Gradient backgrounds for sections */
 .bg-gradient-primary-to-secondary-light {
-    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+    background: linear-gradient(45deg, #f0f0f0, #ffffff) !important; /* Light gray gradient */
 }
 
 .bg-gradient-primary-to-secondary-gray {
-    background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
+    background: linear-gradient(45deg, #e0e0e0, #f1f1f1) !important; /* Soft gray gradient */
 }
 
 /* On top positioning */
@@ -89,7 +89,7 @@ section .main-body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4); /* Slight dark overlay */
 }
 
 /* Avatar image */
@@ -105,7 +105,7 @@ section .main-body {
 
 #avatar img {
     height: max(130px, min(200px, calc(100vw / 6)));
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); /* Light shadow for avatar */
 }
 
 /* Media Queries */
