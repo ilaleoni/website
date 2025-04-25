@@ -2,7 +2,7 @@
 
 /* Root variables */
 :root {
-    --h-title-color: #F6A5A1;  /* Soft Pink */
+    --h-title-color: #6c757d;  /* Soft Gray */
 }
 
 /* Header */
@@ -13,7 +13,7 @@
 
 /* Background color for sections */
 .bg-bottom {
-    background-color: var(--h-title-color); /* Soft Pink background */
+    background-color: var(--h-title-color); /* Soft Gray background */
 }
 
 /* Top Section */
@@ -47,7 +47,7 @@
 /* Section header styles */
 section header h2 {
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    color: var(--h-title-color); /* Soft Pink for section titles */
+    color: var(--h-title-color); /* Soft Gray for section titles */
     font-size: 2.3rem;
     line-height: 4rem;
 }
